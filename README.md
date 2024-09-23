@@ -3,7 +3,7 @@ Name : ASHWIN KUMAR S
 
 Ref no : 212222240013
 
-Date of experiment : 
+Date of experiment : 12.8.24
 
 ## Aim:
 To Write and execute ALP on fundamental arithmetic and logical operations
@@ -15,7 +15,7 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
  ## Running the Emulator :
 1.	Download and install emu8086 (www.emu8086.com) It is usually installed in C:\EMU8086 subfolder in the “Windows” directory.
 2.	Run  emu8086 icon (on the desktop or in the c:\EMU8086 folder of window).It has green color logo.  
-3.		write the code for the appropriate program for ADDITION,SUBTRACTION, MULTIPLICATION,DIVISION operations 
+3.		write the code for the appropriate program for ADDITION,SUBTRACTION, MULTIPLICATION,DIVISION,AND, OR, NOT operations 
 4.	 Compile the program and check for the errors.
 5.	Run (once there is no syntax error).
 6.	Click OK to see/view the output of your program on the Emulator screen. 
@@ -39,7 +39,9 @@ ADD AL,BL
 HLT
 ```
 ## Output  
- ![ADDEX](https://github.com/JananiSoundararajan/EXPERIMENT--01-ALP-FOR-8086/assets/119477549/9b3a7e31-db56-4c0e-9b59-43fe21ab0371)
+
+![add](https://github.com/user-attachments/assets/103c90dd-cba4-41c4-9ffa-d97878456e3d)
+
 
 ## Subtraction  of 8 bit numbers  ALP 
 ```assembly
@@ -47,9 +49,11 @@ MOV AL,84H
 MOV BL,63H
 SUB AL,BL
 HLT
-``` 
-## Output 
-![SUBEX](https://github.com/JananiSoundararajan/EXPERIMENT--01-ALP-FOR-8086/assets/119477549/fcb56b58-d90f-4cf2-850d-85c531d9862c)
+```
+## Output  
+
+![sub](https://github.com/user-attachments/assets/aa2f512e-bb55-4d94-b35e-8e3412dc024a)
+
 
 ## Multiplication of 8 bit numbers  ALP
 ```assembly
@@ -59,7 +63,8 @@ MUL BL
 HLT
 ```
 ## Output  
-![MULEX](https://github.com/JananiSoundararajan/EXPERIMENT--01-ALP-FOR-8086/assets/119477549/d5f842ca-8113-4380-9948-2dd4089cb605)
+![multi](https://github.com/user-attachments/assets/a45c0711-3916-4b8d-a18e-90dc49ee9c05)
+
 
 ## Division of 8 bit numbers  ALP
 ```assembly
@@ -69,7 +74,8 @@ DIV BL
 HLT
 ```
 ## Output  
-![DIV EX](https://github.com/JananiSoundararajan/EXPERIMENT--01-ALP-FOR-8086/assets/119477549/b34c43fd-318d-4df8-995b-d4357456f886)
+![div](https://github.com/user-attachments/assets/15a4f643-3824-4483-9b55-6902c8928ccc)
+
 
 
 ## Result :
